@@ -1,0 +1,8 @@
+README:
+
+Summary : This program involves how to embed WordNet synset in the text.
+
+Module Description:
+1. logic module contains code about how to do word sense disambiguation.
+2. raw_data is the folder containing raw text file.
+3. new_data is the folder containing the processed text file after synset concept embedding.

@@ -1,0 +1,14 @@
+README:
+
+Summary : This program involves Term weight assignment, Synset Embedding, GTM comparison and final merging step.
+
+1. The entry of the program is in UI/MainWindow.py
+2. Module explanation:
+	2.1 UI module contains the files to build the interface.
+	2.2 Logic Module contains files to access data stored in MySql Database.
+	2.3 Evaluation can be ignored, I used to clean the data.
+	2.4 Data Module contains files both about the conference data and code to train model.
+
+3. GTM similarity algorithm is used to compare texts. So I set up a local API to receive GTM comparison request. The files about the server is in the "SimilarityServer".
+
+4. The code about how to embed synsets is shown in Folder <SemanticBoW>.

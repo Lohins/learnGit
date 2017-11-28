@@ -1,0 +1,12 @@
+README:
+
+Summary : This program involves Term weight assignment, Synset Concept Embedding.
+
+1. The entry of the program is in UI/MainWindow.py
+2. Module explanation:
+	2.1 UI module contains the files to build the interface.
+	2.2 Logic Module contains files to access data stored in MySql Database.
+	2.3 Evaluation can be ignored, I used to clean the data.
+	2.4 Data Module contains files both about the conference data and code to train model.
+
+3. The code about how to embed synsets is shown in Folder <SemanticBoW>.
